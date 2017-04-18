@@ -1,11 +1,7 @@
 package project;
-
 import java.awt.*;
-
 import javax.swing.*;
-
 import java.awt.event.*;
-
 import java.sql.Connection; 
 import java.sql.DriverManager;  
 import java.sql.ResultSet;  
@@ -28,6 +24,12 @@ public class jdbcconnection extends JFrame implements ActionListener
 	public String url = "jdbc:oracle:thin:@db.ciu.edu.tr:1521:db";
     public String username = "c##20131563";
     public String password = "p20131563";
+    
+    //changed part 
+    public String url = "jdbc:oracle.ciu.edu.tr";
+    public username ="wezoeshaban";
+    public password ="dlaminisengendo";
+    //changed part
     public jdbcconnection()
     {
         ArrayList columnNames = new ArrayList();
